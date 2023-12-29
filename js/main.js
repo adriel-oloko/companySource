@@ -3,20 +3,6 @@ jQuery(document).ready( function($) {
     $('#loaderContainer').delay(3000).fadeOut(500)
     $('#mobileMenu').fadeOut()
 
-    let xx = 0
-    var prev = 0
-    var prevFS = 0
-    let page = 1
-    var slideChecker = false
-    let heroMarginBottom = parseFloat($('h2#role').css('marginBottom'))
-    
-    /**
-     * Page 1 Image bOx and name
-     * Page 2 Tchnologies
-     * Page 3 Projects/About me (double Page slider)
-     * Page 5 COntact
-     * 
-     */
     let index = 0
     setInterval(() => {
         index++
@@ -30,7 +16,7 @@ jQuery(document).ready( function($) {
         }
     }, 1500)
     
-    function reveal() {
+    const reveal = () => {
         var reveals = document.querySelectorAll(".container-box, .container-left");
 
         for (var i = 0; i < reveals.length; i++) {
@@ -127,7 +113,3 @@ jQuery(document).ready( function($) {
         }, 'slow')
     })
 })
-
-const linkClickFunction = (url) => {
-    window.open(url, '_blank')
-}
