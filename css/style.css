@@ -175,7 +175,7 @@ header {
     margin: 0;
 }
 
-.container {
+.container-box {
     transform: translateY(150px);
 	opacity: 0;
 	transition: all 2s ease;

@@ -31,7 +31,7 @@ jQuery(document).ready( function($) {
     }, 1500)
     
     function reveal() {
-        var reveals = document.querySelectorAll(".container, .container-left");
+        var reveals = document.querySelectorAll(".container-box, .container-left");
 
         for (var i = 0; i < reveals.length; i++) {
           var windowHeight = window.innerHeight;

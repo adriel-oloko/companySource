@@ -1294,6 +1294,18 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:-top-4 {
+    top: -1rem;
+  }
+
+  .xl\:-top-6 {
+    top: -1.5rem;
+  }
+
+  .xl\:-top-64 {
+    top: -16rem;
+  }
+
   .xl\:mb-8 {
     margin-bottom: 2rem;
   }
