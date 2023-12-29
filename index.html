@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+
+        <link rel="icon" href="images/favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+        <link rel="stylesheet" type="text/css" href="dist/output.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/8e616065cd.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/jquery-3.6.2.min.js"></script>
+
+        <title>Adriel Oloko - Home</title>
+    </head>
+
+    <body>
+        <div id="falseScreenContainer" class="fixed z-20 hidden">
+            <div id="falseScreen" class="falseScreen"></div>
+        </div>
+
+        <div id="loaderContainer" class="fixed z-50 inset-0 text-center hidden">
+            <span class="loader"></span>
+        </div>
+
+        <div id="mjk" class="h-auto min-h-screen md:h-full">
+            <nav class="relative w-full z-30 pb-3 pt-0 top-4 md:py-2 md:px-0">
+                <table class="w-3/4 m-auto mt-4 text-white md:w-11/12 md:mt-0">
+                    <tr>
+                        <td id="image" class="w-1/2 md:w-1/3"><span><img src="images/logo-white.png" class="w-12 h-12 md:w-10 md:h-10" alt="" /></span></td>
+                        <td class="hidden align-middle text-right md:table-cell lg:w-40"><span><h4 class="hover:underline"><a href="/">Home</a></h4></span></td>
+                        <td class="hidden align-middle text-right md:table-cell lg:w-32"><span><h4 class="wwa hover:underline"><a href="#">About</a></h4></span></td>
+                        <td class="hidden align-middle text-right md:table-cell lg:w-32"><span><h4 class="wwa hover:underline"><a href="#">Services</a></h4></span></td>
+                        <td class="hidden align-middle text-right md:table-cell md:w-32 lg:w-40"><span><h4 class="op hover:underline"><a href="#">Philosophy</a></h4></span></td>
+                        <td class="hidden align-middle text-right md:table-cell lg:w-32"><span><h4 class="contact hover:underline"><a href="#">Contact</a></h4></span></td>
+                        <td class="relative w-1/2 align-middle text-right md:hidden"><span id="bars" class="material-icons-round text-3xl">menu</span><span id="close" class="material-icons-round text-3xl hidden opacity-0 border-2 border-solid border-white">close</span></td>
+                    </tr>
+                </table>
+            </nav>
+            <div id="mobileMenu" class="absolute h-full w-full z-10 text-white inset-0 pb-14 pt-32 overflow-x-hidden">
+                <h2 class="mm-headerText font-semibold text-3xl py-8 px-14 opacity-0 hover:bg-white hover:text-black"><a href="/">Home</a></h2>
+                <div class="border-t-2 border-solid border-white w-full opacity-0"></div>
+                <h2 class="wwa mm-headerText font-semibold text-3xl py-8 px-14 opacity-0 capitalize hover:bg-white hover:text-black">Who we are</h2>
+                <div class="border-t-2 border-solid border-white w-full opacity-0"></div>
+                <h2 class="wwd mm-headerText font-semibold text-3xl py-8 px-14 opacity-0 capitalize hover:bg-white hover:text-black">What we do</h2>
+                <div class="border-t-2 border-solid border-white w-full opacity-0"></div>
+                <h2 class="op mm-headerText font-semibold text-3xl py-8 px-14 opacity-0 capitalize hover:bg-white hover:text-black">Our Philosophy</h2>
+                <div class="border-t-2 border-solid border-white w-full opacity-0"></div>
+                <h2 class="contact mm-headerText font-semibold text-3xl py-8 px-14 opacity-0 capitalize hover:bg-white hover:text-black">Contact</h2>
+            </div>
+            
+            <header class="mt-0 md:absolute inset-0">
+                <div class="blur"></div>
+                <div class="blur left-auto top-auto right-1/4 bottom-12"></div>
+                <div class="blur left-auto top-auto right-0 bottom-18 hidden md:block"></div>
+                <img id="sw" src="images/star.png" class="sw absolute top-1/4 left-4 md:left-8" alt=""/>
+                <img id="sw" src="images/star.png" class="sw absolute bottom-1/4 right-4 animate-pulse" alt=""/>
+                <img src="images/sata gra.png" class="absolute bottom-4 left-2/3 animate-pulse" alt=""/>
+                <img src="images/star gray.png" class="absolute top-1/2 left-2/4 animate-pulse" alt=""/>
+                <div id="hero" class="grid w-11/12 m-auto mt-16 md:w-4/5 md:mt-40 lg:absolute lg:left-0 lg:right-0 lg:bottom-20 lg:mt-0 lg:grid-cols-2">
+                    <div class="w-full h-full xl:w-4/5">
+                    <div id="rex" class="relative top-0 w-4/5 m-auto">
+                        <div id="shade"></div>
+            
+                        <div class="image-box"><div></div></div>
+                        <div class="image-box a"></div>
+                        <div class="image-box b"></div>
+                        <div class="image-box a"></div>
+                        <div class="image-box"><div class="top-1"></div></div>
+                    </div>
+                    </div>
+    
+                    <div id="textBox" class="relative mt-32 mb-0 opacity-0 -translate-x-1/2 lg:translate-x-full left-8 -translate-y-1/4 pb-12 md:left-32 lg:absolute lg:inset-x-0 lg:w-1/2 lg:mt-0 lg:top-1/2 lg:-translate-y-1/2 lg:opacity-100">
+                        <h1 class="relative capitalize">Developing seamless <br /><span class=""><i class="fa-solid fa-asterisk pr-2 scale-50 text-orange-500"></i><i class="fa-solid fa-asterisk pr-2 scale-75"></i><i class="fa-solid fa-asterisk pr-4 text-orange-500"></i>experiences</span><br /> that 
+                            <span id="HeroSc" class="absolute left-24 inline-block h-12 overflow-y-hidden">
+                                <span class="bg-white text-black px-4">resonate</span><br />
+                                <span class="bg-white text-black px-4">inspire</span><br/>
+                                <span class="bg-white text-black px-4">captivate</span><br />
+                                <span class="bg-white text-black px-4">resonate</span><br />
+                            </span>
+                        </h1>
+                    </div>
+                    
+                    <button class="wwa absolute -bottom-7 left-1/2 bg-white text-2xl font-semibold px-6 py-2 hidden lg:block">Discover More</button>
+                </div>
+            </header>
+
+            <main class="relative bg-white w-full h-auto lg:top-full">
+                <div id="whoWeAre" class="container grid w-4/5 m-auto pt-12 text-center md:grid-cols-2 md:w-11/12 lg:w-4/5">
+                    <div>
+                        <h2 class="capitalize text-center font-semibold text-4xl w-4/5 m-auto md:m-0">Who we are</h2>
+                        <p class="text-xl pt-4 md:w-4/5">We are not just a web development agency. We are digital transformation catalysts, igniting the spark of creativity and innovation in every project we touch. Our seasoned team of web experts combines cutting-edge technology with stunning design, crafting bespoke solutions that redefine online experiences. Whether you need a simple landing page, a complex e-commerce platform, or a custom web application, we have the skills and experience to deliver. Join us as we propel your business into the digital future. 🚀</p>
+                    </div>
+                    <img src="images/adgetlinked.pythonanywhere.com_(Nest Hub Max) (1).png" class="w-full inline-block m-auto mt-8 md:mt-0 rounded-lg" alt="" />
+                    <img src="images/nams.png" class="w-3/4 inline-block m-auto mt-8 rounded-lg md:mx-0" alt="" />
+                </div>
+
+                <div id="services" class="container relative w-full h-auto mt-32">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="absolute -top-20"><path fill="#6096ba" fill-opacity="1" d="M0,32L0,160L240,160L240,192L480,192L480,256L720,256L720,224L960,224L960,32L1200,32L1200,288L1440,288L1440,320L1200,320L1200,320L960,320L960,320L720,320L720,320L480,320L480,320L240,320L240,320L0,320L0,320Z"></path></svg>
+
+                    <h2 class="capitalize text-center font-semibold text-white text-4xl pt-8">What we do</h2>
+                    <div id="serviceBox" class="container grid w-4/5 md:grid-cols-2 md:w-11/12 lg:w-4/5 xl:grid-cols-3 m-auto mt-8">
+                        <div class="container w-full shadow-lg bg-white mb-8 md:w-11/12 md:mb-16 xl:mb-8">
+                            <img src="images/14803715_Vector_2646.jpg" class="aspect-video m-auto md:m-0" alt="" />
+                            <h3 class="font-semibold text-3xl px-8 py-8 pb-4">Web development</h3>
+                            <p class="px-8 pb-8">At our web development agency, we specialize in crafting bespoke websites that prioritize user-centric design, ensuring optimal performance, security, and scalability. With a commitment to excellence, we provide ongoing support to ensure your online presence remains outstanding and impactful.</p>
+                        </div>
+
+                        <div class="container w-full shadow-lg bg-white mb-8 md:w-11/12 md:mb-16 xl:mb-8">
+                            <img src="images/9046651.jpg" class="aspect-video m-auto md:m-0" alt="" />
+                            <h3 class="font-semibold text-3xl px-8 py-8 pb-4">Web Integration</h3>
+                            <p class="px-8 pb-8">Adriel Oloko offers seamless application integration, data synchronization, API development, and security measures. Our expert team provides scalable solutions and real-time analytics for a harmonious digital ecosystem. 🚀🌐</p>
+                        </div>
+
+                        <div class="container w-full shadow-lg bg-white mb-8 md:w-11/12">
+                            <img src="images/14658292_2011.i211.029_loudspeaker megaphone lightnings realistic.jpg" class="aspect-video w-full object-cover m-auto md:m-0" alt="" />
+                            <h3 class="font-semibold text-3xl px-8 py-8 pb-4">Advertising and Marketing</h3>
+                            <p class="px-8 pb-8">Our company empowers your advertising and marketing efforts with cutting-edge websites and digital solutions. Engage customers, optimize user experiences, and drive conversions through tailor-made web designs and strategies. Elevate your online presence with our expertise!</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div id="page3" class="relative w-full h-auto p-8 md:p-20">
+                    <h2 class="container-left relative z-10 w-full text-white font-bold md:w-3/4 pb-8">It starts with being <span class="bg-white px-6">different.</span></h2>
+                    <p class="container relative z-10 text-white w-full text-2xl md:w-3/4">In the realm of web development, excellence begins by embracing uniqueness, It defines our approach. We design bespoke websites that stand out, focusing on innovative solutions, user-centric experiences, and cutting-edge technologies. We develop systems that elevate your online presence with a distinct touch that sets you apart in the digital landscape.</p>
+                    <img src="images/imageedit_2_9592161560.jpg" class="w-3/4 h-72 object-cover object-bottom mt-8 rotate-180" alt="" />
+                    <div class="w-1/4 absolute inset-y-0 right-0"></div>
+                </div>
+            </main>
+            <footer class="relative w-full bg-white p-8 md:p-20 lg:top-full">
+                <h2 class="text-4xl capitalize font-bold">Contact us</h2>
+
+                <div class="grid md:grid-cols-2 mt-8">
+                    <p class="text-xl font-medium">Our team would be more than excited to answer whatever questions you might have. Reach out to us with the contact method most suitable for you, let's build the future together <span class="text-red-500">today</span>.</p>
+                
+                    <div class="relative z-0 top-1/2 -translate-y-1/2 right-0 md:absolute">
+                        <div class="inline-flex justify-normal md:justify-center m-auto mt-8 w-full">
+                            <div id="twitter" class="relative w-16 h-16 border-2 border-black border-solid rounded-lg p-2 text-center text-3xl text-black" onclick="linkClickFunction('https://twitter.com/adrielloks')">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" class="absolute w-full h-1/2 top-1/2 -translate-y-1/2 left-0 right-0" fill="" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+                            </div>
+                        
+                            <div id="whatsapp" class="relative w-16 h-16 border-2 border-black border-solid rounded-lg p-2 text-center text-3xl text-black ml-7" onclick="linkClickFunction('https://wa.me/+2349038913378')">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" class="absolute w-full h-1/2 top-1/2 -translate-y-1/2 left-0 right-0 " fill="" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+                            </div>
+                        </div>
+                        <div class="inline-flex justify-normal md:justify-center m-auto mt-8 w-full">
+                            <div id="email" class="relative w-16 h-16 border-2 border-black border-solid rounded-lg p-2 text-center text-3xl text-black" onclick="linkClickFunction('mailto:contactus@adrieloloko.com')">
+                                <svg id="emailSvg" xmlns="http://www.w3.org/2000/svg" height="16" width="16" class="absolute w-full h-1/2 top-1/2 -translate-y-1/2 left-0 right-0" fill="" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+                            </div>
+                            <div id="linkedin" class="relative w-16 h-16 border-2 border-black border-solid rounded-lg p-2 text-center text-3xl text-black ml-7" onclick="linkClickFunction('https://www.linkedin.com/in/adriel-oloko-115602203?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')">
+                                <i class="fa-brands fa-linkedin-in absolute top-1/2 -translate-y-1/2 left-0 right-0"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </footer>
+
+        </div>
+        <script type="text/javascript" src="js/main.js"></script>
+
+        <script>
+            //jQuery(document).ready()
+        </script>
+    </body>
+</html>
